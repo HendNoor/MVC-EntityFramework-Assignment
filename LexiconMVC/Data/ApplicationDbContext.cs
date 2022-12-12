@@ -47,16 +47,16 @@ namespace LexiconMVC.Data
             modelbuilder.Entity<City>().HasData(new City { Id = -9, CityName = "Kyoto", CountryId = -5 });
             modelbuilder.Entity<City>().HasData(new City { Id = -10, CityName = "Bergen", CountryId = -2 });
 
-            modelbuilder.Entity<Person>().HasData(new Person { Id = -1, Phonenumber = 0738450197, Name = "Simon Eliasson", CityId = -1 });
-            modelbuilder.Entity<Person>().HasData(new Person { Id = -2, Phonenumber = 0709952132, Name = "Janne Karlsson", CityId = -10 });
-            modelbuilder.Entity<Person>().HasData(new Person { Id = -3, Phonenumber = 0782161234, Name = "Annie Svensson", CityId = -2 });
-            modelbuilder.Entity<Person>().HasData(new Person { Id = -4, Phonenumber = 0741237894, Name = "Kalle Carlsson", CityId = -3 });
-            modelbuilder.Entity<Person>().HasData(new Person { Id = -5, Phonenumber = 0738660102, Name = "Andy Hjert", CityId = -4 });
-            modelbuilder.Entity<Person>().HasData(new Person { Id = -6, Phonenumber = 0759982251, Name = "Björn Bergman", CityId = -5 });
-            modelbuilder.Entity<Person>().HasData(new Person { Id = -7, Phonenumber = 0761496378, Name = "Sara Strand", CityId = -6 });
-            modelbuilder.Entity<Person>().HasData(new Person { Id = -8, Phonenumber = 0778852211, Name = "Frida Svensson", CityId = -7 });
+            modelbuilder.Entity<Person>().HasData(new Person { Id = -1, Phonenumber = 0738450197, Name = "Hend Noor", CityId = -1 });
+            modelbuilder.Entity<Person>().HasData(new Person { Id = -2, Phonenumber = 0709952132, Name = "Janna Moh", CityId = -10 });
+            modelbuilder.Entity<Person>().HasData(new Person { Id = -3, Phonenumber = 0782161234, Name = "Anna Nilson", CityId = -2 });
+            modelbuilder.Entity<Person>().HasData(new Person { Id = -4, Phonenumber = 0741237894, Name = "Moh'd Nadir", CityId = -3 });
+            modelbuilder.Entity<Person>().HasData(new Person { Id = -5, Phonenumber = 0738660102, Name = "Sam Ahmed", CityId = -4 });
+            modelbuilder.Entity<Person>().HasData(new Person { Id = -6, Phonenumber = 0759982251, Name = "Yousef Abdi", CityId = -5 });
+            modelbuilder.Entity<Person>().HasData(new Person { Id = -7, Phonenumber = 0761496378, Name = "Sara Ahmed", CityId = -6 });
+            modelbuilder.Entity<Person>().HasData(new Person { Id = -8, Phonenumber = 0778852211, Name = "Frida Seif", CityId = -7 });
             modelbuilder.Entity<Person>().HasData(new Person { Id = -9, Phonenumber = 0778852211, Name = "Andy Karlsson", CityId = -8 });
-            modelbuilder.Entity<Person>().HasData(new Person { Id = -10, Phonenumber = 0778852211, Name = "Charlie Svensson", CityId = -9 });
+            modelbuilder.Entity<Person>().HasData(new Person { Id = -10, Phonenumber = 0778852211, Name = "Charlie Svensson", CityId = -9 });});
 
             modelbuilder.Entity<Language>().HasData(new Language { Id = -1, LanguageName = "Swedish" });
             modelbuilder.Entity<Language>().HasData(new Language { Id = -2, LanguageName = "Japanese" });
